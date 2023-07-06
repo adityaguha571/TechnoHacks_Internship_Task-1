@@ -35,7 +35,7 @@ def main():
         else:
             print("Invalid choice!")
 
-        next_calculation = input("Let's do the next calculation? (yes/no): ")
+        next_calculation = input("Do you want to continue? (yes/no): ")
         if next_calculation == "no":
             print("Thank you")
         else:
