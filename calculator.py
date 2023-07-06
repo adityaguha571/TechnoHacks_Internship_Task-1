@@ -9,7 +9,7 @@ def multiply(n1, n2):
 
 def divide(n1, n2):
     if n2 == 0:
-        return "Cannot divide by zero!"
+        return "Can't divide by zero!"
     return n1 / n2
 
 def power(n1, n2):
@@ -19,8 +19,8 @@ def main():
     choice = input("Enter your choice: ")
 
     if choice in ('1', '2', '3', '4','5'):
-        n1 = float(input("Enter the first number: "))
-        n2 = float(input("Enter the second number: "))
+        n1 = float(input("Enter the 1st number: "))
+        n2 = float(input("Enter the 2nd number: "))
 
         if choice == '1':
             print(n1, "+", n2, "=", add(n1, n2))
